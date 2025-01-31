@@ -80,7 +80,7 @@ def alternar_estado_restaurante():
     '''Essa função é responsavel por Ativar e Desativar um restaurante
     
     Inputs:
-    - Altera o estado do restaurante (ativo e desativo)
+    - Altera o estado do restaurante (ativo e desativo) 
 
     '''
     exibir_subtitulo('Alterando estado do restaurante')
