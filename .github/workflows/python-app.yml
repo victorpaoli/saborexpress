@@ -1,7 +1,6 @@
 # This workflow will install Python dependencies, run tests and lint with a single version of Python
 # For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-python
-
-name: Teste Python
+name: Teste do App Python
 
 on: [push, pull_request]
 
@@ -17,5 +16,5 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Executar o script
+      - name: Testar execução do script
         run: python app.py
